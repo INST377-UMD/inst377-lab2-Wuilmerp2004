@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Name and Current Year Form</title>
+    <style>
+        body {
+            background-color: #379bf4;
+            text-align: center;
+        }
+        .input {
+            margin: 10px ;
+            display: inline-flex;
+            border: 1px solid;
+            font-size: 20px;
+        }
+        .submit-box {
+            background-color: #4CAF50;
+            color: white;
+            cursor: pointer;
+            font-size: 16px;
+            margin-top: 10px;
+        }
+        .submit-box:hover {
+            background-color: #a403e8;
+        }
+    </style>
+</head>
+<body>
+    <h1>Name and Location Form</h1>
+    <form action="INST377-Lab2_p2.html" method="GET">
+    <form name="contactForms" action="page2.html" method="get">
+        <div class="input">
+        <label for="fullName">Full Name:</label>
+        <input type="text" id="fullName" name="fullName" required>
+        </div>
+        <br>
+        <div class="input">
+        <label for="location">Location:</label>
+        <input type="text" id="location" name="location" required>
+    </div>
+        <br>
+        <input type="submit" class="submit-box" value="Submit">
+    </form>
+</body>
+</html>
